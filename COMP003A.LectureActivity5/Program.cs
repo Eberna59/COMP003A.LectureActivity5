@@ -4,7 +4,20 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+
+            DisplayWelcome();
+
+            String studentName = "Evan";
+            int studentAge = 21;
+            DisplayUserInfo(studentName, studentAge);
+
+            int total = calcukatesum(9, 6);
+            Console.WriteLine("The sum is: " + total);
+
+            int mainValue = 100;
+
+
+            
         }
     }
 }
