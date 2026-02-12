@@ -16,6 +16,13 @@
 
             int mainValue = 100;
 
+            if (true)
+            {
+                int insideBlock = 25;
+                Console.WriteLine("Inside block: " insideBlock);
+
+            }
+
 
             
         }
